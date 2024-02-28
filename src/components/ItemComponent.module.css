@@ -1,14 +1,32 @@
-.container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 40px;
-    margin-left: 15px;
-    max-width: 80%;
-    border: 1px solid black;
+.main{
+    padding: 10px ;
+    background:  rgb(230, 213, 213);
+
 }
-.addbtn{
-    margin-top: 20px;
-    height: 25px;
-    background: rgb(92, 80, 80);
+.item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+.btn{
+    font: inherit;
+    font-weight: bold;
+    font-size: 1 rem;
+    color: #8a2b06;
+    border: 1px solid #8a2b06;
+    width: 3rem;
+    text-align: center;
+    border-radius: 6px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 1rem;
+    margin: 0.25rem;
+}
+.addBtn{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1 rem;
+    border-radius: 6px;
+    background-color:rgb(185, 149, 149)
 }

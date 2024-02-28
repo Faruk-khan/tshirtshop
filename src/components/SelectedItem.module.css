@@ -1,0 +1,25 @@
+.select{
+    padding: 10px ;
+    background:  rgb(181, 214, 223);
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(183, 226, 226);
+}
+.items button{
+    font: inherit;
+    font-weight: bold;
+    font-size: 1.15rem;
+    color: #6d5f5a;
+    border: 1px solid #25120a;
+    width: 3rem;
+    text-align: center;
+    border-radius: 6px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 1rem;
+    margin-top: 0.35rem;
+}
